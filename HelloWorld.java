@@ -3,7 +3,7 @@ class HelloWorld{
     System.out.println("HelloWorld");
     message("ABC");
   }
-  public static message(String string){
+  public static void message(String string){
     System.out.println("Welcome "+string);
   }
 }
